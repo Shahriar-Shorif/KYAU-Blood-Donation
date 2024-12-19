@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sign_In"
+    android:orientation="vertical"
+    >
+
+    <include layout="@layout/toolbar_for_all_layout"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter your phone number:"
+                android:textSize="15sp"
+                android:padding="2dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="8dp"
+
+                />
+            <EditText
+                android:id="@+id/emailphone"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/registration_edtext_back"
+                android:drawablePadding="8dp"
+                android:padding="5dp"
+                android:layout_margin="8dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            >
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:textSize="15sp"
+                android:padding="2dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="8dp"
+
+                />
+            <EditText
+                android:id="@+id/pass"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/registration_edtext_back"
+                android:drawablePadding="8dp"
+                android:padding="5dp"
+                android:layout_margin="8dp"
+                />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/signinbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#E41818"
+            android:text="Sign In"
+            android:layout_margin="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Forgotten password?"
+            android:textColor="#2196F3"
+            android:layout_margin="10dp"
+
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>

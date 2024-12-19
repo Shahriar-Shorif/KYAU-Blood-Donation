@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.KYAUBloodDonation" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="bottomSheetDialogTheme">@style/AppBottomSheetDialogTheme</item>
+    </style>
+
+    <style name="Theme.KYAUBloodDonation" parent="Base.Theme.KYAUBloodDonation" />
+
+
+    <style name="AppBottomSheetDialogTheme"
+        parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+    </style>
+
+    <style name="AppModalStyle"
+        parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/backgraound</item>
+    </style>
+
+
+    <style name="SplashScreen" parent="Theme.AppCompat.Light.NoActionBar">
+        ...
+        <!-- Set a white background behind the splash screen icon. -->
+        <item name="android:windowBackground">@drawable/splashscreen_background</item>
+    </style>
+
+
+</resources>
